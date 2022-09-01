@@ -276,6 +276,12 @@ font-size: var(--fs-h3)
     transform 750ms cubic-bezier(.5, 0, .5, 1),
     opacity 250ms linear;
 }
+.portfolio_img2 {
+    transition:
+    transform 750ms cubic-bezier(.5, 0, .5, 1),
+    opacity 250ms linear;
+    max-width:450px;
+}
 
 .portfolio_item:focus{
     position: relative;
